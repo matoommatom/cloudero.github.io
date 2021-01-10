@@ -1,0 +1,90 @@
+/*   Global classes   */
+:root {
+  --roboto: "Roboto", sans-serif;
+  --rainbow: linear-gradient(
+    #8a2387 0%,
+    #e94057 29%,
+    #f27121 67%,
+    #9c9c9c 100%
+  );
+  --light-grey: #9c9c9c;
+}
+
+h1 {
+  font-family: var(--roboto);
+  font-size: 30px;
+}
+
+h3,
+h4 {
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+span .post {
+  color: #9c9c9c;
+  font-family: var(--roboto);
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/*      Content     */
+.content {
+  padding: 0.5rem 1rem;
+}
+
+.rainbow-text {
+  background: -webkit-linear-gradient(
+    0deg,
+    #8a2387 0%,
+    #e94057 29%,
+    #f27121 67%,
+    #9c9c9c 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*      People      */
+.black-text {
+  font-family: var(--roboto);
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+  height: 36px;
+  padding: 0.5rem 1rem;
+  border-radius: 11px;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 1px #e0e0e0;
+  border: none;
+  margin: 0.5rem 0rem;
+  display: flex;
+  align-items: center; /*to make text align vertically center in the card*/
+}
+
+#hide {
+  display: none;
+}
+
+#hide2 {
+  display: none;
+}
+
+.click {
+  text-align: center;
+  padding: 1rem;
+}
+
+.see-more {
+  font-family: var(--roboto);
+  font-weight: 300;
+  font-size: 14px;
+  color: #9c9c9c;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+/*    see post    */
